@@ -1,0 +1,164 @@
+<resources>
+
+    <string name="main_screen_call_all_fragment">Все</string>
+    <string name="main_screen_call_incoming_fragment">Входящие</string>
+    <string name="main_screen_call_outgoing_fragment">Исходящие</string>
+
+    <string name="apply_text">Ок</string>
+    <string name="cancel_text">Отмена</string>
+
+    <string name="dialog_delete_call_confirm_error">Возникли проблемы при воспроизведении. Возможно файл был удалён. Хотите удалить эту запись из базы?</string>
+    <string name="dialog_delete_call_confirm">Вы действительно хотите удалить эту запись?</string>
+    <string name="record_enable">Запись включена</string>
+    <string name="record_disable">Запись выключена</string>
+
+    <string name="no_record_call_title">Нет записаных звонков</string>
+    <string name="search_title">Поиск</string>
+    <string name="action_delete_title">Удалить</string>
+    <string name="action_add_favorite_title">Добавить в избранное</string>
+    <string name="action_remove_favorite_title">Удалить из избранного</string>
+    <string name="sort_by_date">Сортировать по Дате</string>
+    <string name="sort_by_name">Сортировать по Имени</string>
+
+    <string name="main_screen_call_favorite_fragment">Избранное</string>
+
+    <string name="hint_text_enter_desc_label">Тема</string>
+    <string name="hint_text_enter_desc">Введите заметку</string>
+    <string name="call_recorded">Вызов записан</string>
+    <string name="change_save_folder_to">Папка для сохранения изменена на</string>
+    <string name="share_record">Поделиться записью</string>
+    <string name="share_add_filter">Не записывать разговоры с этим контактом</string>
+    <string name="delete_contact">Удалить запись</string>
+    <string name="dialog_call_type_record_all">Все вызовы</string>
+    <string name="dialog_call_type_record_incoming">Входящие вызовы</string>
+    <string name="dialog_call_type_record_outgoing">Исходящие вызовы</string>
+    <string name="dialog_call_type_record_unknown">Неизвестные номера</string>
+    <string name="dialog_call_type_record_change">Тип записи телефонны разговоров изменен на:</string>
+
+    <string name="pin_title_set">Введите PIN</string>
+    <string name="pin_title_confirm">Подтвердите PIN</string>
+    <string name="pin_empty_password">Введите пароль</string>
+    <string name="pin_password_not_confirm">Пароль не подтвержден</string>
+    <string name="pin_password_confirm">Пароль сохранён</string>
+
+    <string name="settings">Настройки</string>
+    <string name="settings_record_type">Вариант записи</string>
+    <string name="settings_ignore_list">Игнорируемые для записи контакты</string>
+    <string name="settings_pin">Защита PIN-кодом</string>
+    <string name="settings_path">Путь к записям</string>
+    <string name="settings_sort">Способ сортировки</string>
+    <string name="settings_share">Поделиться приложением</string>
+    <string name="settings_rate_us">Оцените нас</string>
+    <string name="settings_pin_select_title">Установите PIN-код</string>
+    <string name="settings_pin_select_desc">Установите PIN-код, чтобы защитить Ваши записанные разговоры</string>
+
+    <string name="dialog_call_sort_change">Тип сортировки звонков изменен на:</string>
+
+    <string name="share_text">Для записи телефонных разговоров я использую Call Recorder, думаю, что это может тебе понравиться. Установи Call Recorder себе на телефон:</string>
+
+    <string name="ignore_list_title">Игнорируемые контакты</string>
+    <string name="ignore_list_delete_confirm">Удалить контакт из списка игнорируемых для записи?</string>
+    <string name="ignore_contact_add">Контакт добалвен в список</string>
+    <string name="ignore_contact_add_error">При добавлении контакта возникла ошибка</string>
+    <string name="ignore_contact_exists">В списке уже существует такой номер</string>
+
+    <string name="play_contact_default">Играть в своем плеере</string>
+    <string name="dialog_save_desc_confirm">Сохранить изменения перед выходом?</string>
+    <string name="no_text">Нет</string>
+    <string name="yes_text">Да</string>
+
+    <string name="delete_text">Удалить</string>
+    <string name="delete_header">Удаление записей</string>
+    <string name="dialog_delete_all_check">Вы действительно хотите удалить выделенные записи?</string>
+    <string name="fab_text_delete_all">Удалить выбранные записи</string>
+    <string name="fab_text_delete_contacts">Удалить записи контакта</string>
+
+    <string name="settings_action_after_call">Выбрать действие после звонка</string>
+    <string name="dialog_action_after_call_notification">Выводить оповещение</string>
+    <string name="dialog_action_after_call_open">Открыть окно редактирования записи</string>
+    <string name="dialog_action_after_call_change">Тип действия после звонка изменен на:</string>
+
+    <string name="dialog_attention_label">Внимание</string>
+    <string name="dialog_attention">Приложение может некорректно работать на некоторых устройствах. Для улучшения качества записи, советуем Вам прибавить звук во время разговора.</string>
+
+    <string name="settings_max_call_volume">Выставить громкость во время разговора на максимум</string>
+
+    <string name="settings_lang">Выбор языка</string>
+    <string name="dialog_lang_default">По умолчанию</string>
+    <string name="dialog_lang_en">English</string>
+    <string name="dialog_lang_ru">Русский</string>
+    <string name="dialog_lang_de">Deutsch</string>
+    <string name="dialog_lang_es">Español</string>
+    <string name="dialog_lang_fr">Français</string>
+    <string name="dialog_lang_ja">日本語</string>
+    <string name="dialog_lang_ko">한국어</string>
+    <string name="dialog_lang_pt">Portugues</string>
+    <string name="dialog_lang_zh">中文（简体）</string>
+    <string name="dialog_lang_zh_rtw">中文（繁體）</string>
+
+    <string name="dictaphone_label">Диктофон</string>
+    <string name="dialog_delete_dictaphone">Вы действительно хотите удалить запись?</string>
+    <string name="dictaphone_edit_text_hint">Имя записи</string>
+    <string name="dialog_action_after_call_nothing">Ничего не делать</string>
+
+    <string name="dictaphone_toast_start_record">Запись начата</string>
+    <string name="dictaphone_toast_stop_record">Запись закончена</string>
+    <string name="dictaphone_toast_stop_error">Во время записи возникли неполадки</string>
+    <string name="settings_file_extension">Выбрать формат записи файла</string>
+    <string name="dialog_file_ext_amr">AMR</string>
+    <string name="dialog_file_ext_three_gp">3GP</string>
+    <string name="dialog_file_ext_mp_four">MP4</string>
+    <string name="settings_audio_source_label">Вручную выбрать источник аудио для записи</string>
+    <string name="settings_audio_source">Выбрать источник аудио для записи</string>
+    <string name="settings_audio_source_desc">Попробуйте сами выбрать источник аудио для записи. Внимание! Возможна нестабильная работа программы. Разговор может не записаться.</string>
+    <string name="dialog_audio_source_vc">Voice Communication</string>
+    <string name="dialog_audio_source_mic">Mic</string>
+    <string name="dialog_audio_source_vr">Voice Recognition</string>
+    <string name="dialog_audio_source_v_call">Voice Call</string>
+    <string name="dialog_audio_source_default">Default</string>
+    <string name="audio_source_error">Во время записи произошла ошибка. Запись не сохранена.</string>
+    <string name="notification_enable_text">Автоматическая запись включена</string>
+    <string name="notification_disable_text">Автоматическая запись отключена</string>
+    <string name="settings_widget">Включить виджет для записи</string>
+    <string name="dialog_widget_body">Мы добавили новую функцию на экране звонка. Теперь вы можете начать записывать разговор в любой момент, даже если вы отключили автоматическую запись звонков. Виджет появится автоматически во время звонка. Вы можете перетащить его в удобное для Вас место. Для старта/остановки записи нажмите на верхнюю часть виджета. Убрать виджет можно в меню настроек.</string>
+
+
+    <string name="record_time">Время записи</string>
+    <string name="settings_other">Дополнительные настройки</string>
+
+    <string name="skins">Темы</string>
+    <string name="theme_red">Красная</string>
+    <string name="theme_blue">Синяя</string>
+
+    <string name="dialog_system_alert_window">Для работы виджета записи на экране звонка необходимо дать специальное разрешение. Если вы откажитесь, виджет не будет появляться на экране звонка. Включить и отключить виджет можно в настройках.</string>
+
+    <string name="settings_audio_source_default_desc">Источник звука по умолчанию</string>
+    <string name="settings_audio_source_vc_desc">Источник звука микрофона, настроенный для голосовой связи, такой как VoIP</string>
+    <string name="settings_audio_source_mic_desc">Микрофонный источник звука</string>
+    <string name="settings_audio_source_vr_desc">Источник звука микрофона, настроенный для распознавания голоса</string>
+    <string name="settings_audio_source_v_call_desc">Голосовой вызов восходящей линии связи + источник нисходящей линии связи (Внимание! Может работать не на всех устройствах).</string>
+
+    <string name="toast_error">Произошла ошибка при загрузке. Попробуйте снова.</string>
+    <string name="toast_export">Файл загружен</string>
+    <string name="theme_green">Зелёная</string>
+    <string name="share_record_google_drive">Загрузить на Google Drive</string>
+    <string name="list_title_today">Сегодня</string>
+    <string name="list_title_yesterday">Вчера</string>
+
+    <string name="settings_post_call_time">Откладывание записи</string>
+    <string name="settings_post_call_time_desc">Установите время откладывания записи звонка в секундах</string>
+    <string name="dialog_post_call_time_error">Время откладывания должно быть от 0 до 20 секунд</string>
+    <string name="sec">сек.</string>
+
+    <string name="fab_text_delete_dictaphone">Удалить записи голоса</string>
+    <string name="custom_tab_call_text">Записи звонков</string>
+    <string name="custom_tab_voice_text">Записи голоса</string>
+    <string name="home">Главная</string>
+    <string name="rateus">Оцените нас</string>
+    <string name="aboutus">О нас</string>
+    <string name="shareapp">Поделиться приложением</string>
+    <string name="privacypolicy">политика конфиденциальности</string>
+    <string name="moreapps">Больше приложений</string>
+    <string name="footer">Copyright © QRecorder 2018. Все права защищены</string>
+    <string name="app_description">Лучший инструмент для записи</string>
+</resources>

@@ -1,0 +1,163 @@
+<resources>
+
+    <string name="main_screen_call_all_fragment">Todas</string>
+    <string name="main_screen_call_incoming_fragment">Entrante</string>
+    <string name="main_screen_call_outgoing_fragment">Extrovertida</string>
+
+    <string name="apply_text">Ok</string>
+    <string name="cancel_text">Cancelar</string>
+
+    <string name="dialog_delete_call_confirm_error">Hubo un problema con la reproducción. Es posible que se haya eliminado el archivo. ¿Desea eliminar este archivo de la base de datos?</string>
+    <string name="dialog_delete_call_confirm">¿Estás seguro de que quieres eliminar este archivo?</string>
+    <string name="record_enable">Activar registro</string>
+    <string name="record_disable">Desactivar registro</string>
+
+    <string name="no_record_call_title">No hay llamadas grabadas</string>
+    <string name="search_title">Buscar</string>
+    <string name="action_delete_title">Borrar</string>
+    <string name="action_add_favorite_title">Agregar a los favoritos</string>
+    <string name="action_remove_favorite_title">Remover de favoritos</string>
+    <string name="sort_by_date">Ordenar por fecha</string>
+    <string name="sort_by_name">Ordenar por nombre</string>
+
+    <string name="main_screen_call_favorite_fragment">Favorito</string>
+
+    <string name="hint_text_enter_desc_label">Tema</string>
+    <string name="hint_text_enter_desc">Introduzca una nota</string>
+    <string name="call_recorded">La llamada se graba</string>
+    <string name="change_save_folder_to">Guardar carpeta cambiada a</string>
+    <string name="share_record">Compartir este registro</string>
+    <string name="share_add_filter">No grabe conversaciones con este contacto</string>
+    <string name="delete_contact">Eliminar el registro</string>
+    <string name="dialog_call_type_record_all">Todas las llamadas</string>
+    <string name="dialog_call_type_record_incoming">Llamadas entrantes</string>
+    <string name="dialog_call_type_record_outgoing">Llamadas salientes</string>
+    <string name="dialog_call_type_record_unknown">Números desconocidos</string>
+    <string name="dialog_call_type_record_change">El tipo de conversaciones telefónicas cambió a:</string>
+
+    <string name="pin_title_set">Ingrese su PIN</string>
+    <string name="pin_title_confirm">Confirmar PIN</string>
+    <string name="pin_empty_password">Introducir la contraseña</string>
+    <string name="pin_password_not_confirm">Contraseña no verificada</string>
+    <string name="pin_password_confirm">Contraseña guardada</string>
+
+    <string name="settings">Ajustes</string>
+    <string name="settings_record_type">Variante de registro</string>
+    <string name="settings_ignore_list">Contactos omitidos para grabar</string>
+    <string name="settings_pin">Protección del PIN</string>
+    <string name="settings_path">Camino a los registros</string>
+    <string name="settings_sort">Método de clasificación</string>
+    <string name="settings_share">Compartir</string>
+    <string name="settings_rate_us">Escríbenos</string>
+    <string name="settings_pin_select_title">Establecer PIN</string>
+    <string name="settings_pin_select_desc">Establecer un PIN para proteger sus conversaciones grabadas</string>
+
+    <string name="dialog_call_sort_change">Tipo de clasificación de llamadas cambiado a:</string>
+
+    <string name="share_text">Para la grabación de conversaciones telefónicas uso grabadora de llamadas, creo que puede que le guste. Instale Call Recorder en su teléfono:</string>
+
+    <string name="ignore_list_title">Contactos ignorados</string>
+    <string name="ignore_list_delete_confirm">Eliminar un contacto de la lista que se omite para la escritura?</string>
+    <string name="ignore_contact_add">El contacto se añade a la lista</string>
+    <string name="ignore_contact_add_error">Se ha producido un error al agregar el contacto</string>
+    <string name="ignore_contact_exists">En la lista ya existe ese número</string>
+
+    <string name="play_contact_default">Reproducir en tu reproductor</string>
+    <string name="dialog_save_desc_confirm">Guardar cambios antes de dejar de fumar?</string>
+    <string name="no_text">No</string>
+    <string name="yes_text">Sí</string>
+
+    <string name="delete_text">Borrar</string>
+    <string name="delete_header">Eliminación de registros</string>
+    <string name="dialog_delete_all_check">¿Seguro que desea eliminar los registros seleccionados?</string>
+    <string name="fab_text_delete_all">Eliminar registros seleccionados</string>
+    <string name="fab_text_delete_contacts">Eliminar registros de contactos</string>
+
+    <string name="settings_action_after_call">Seleccionar una acción después de una llamada</string>
+    <string name="dialog_action_after_call_notification">Muestra la notificación</string>
+    <string name="dialog_action_after_call_open">Abrir la ventana de edición de registros</string>
+    <string name="dialog_action_after_call_change">El tipo de acción después de la llamada se cambia a:</string>
+
+    <string name="dialog_attention_label">Atención</string>
+    <string name="dialog_attention">Es posible que la aplicación no funcione correctamente en algunos dispositivos. Para mejorar la calidad de la grabación, le recomendamos que añada sonido durante la conversación.</string>
+
+    <string name="settings_max_call_volume">Ajuste el volumen durante una llamada al máximo</string>
+
+    <string name="settings_lang">Lengua</string>
+    <string name="dialog_lang_default">Defecto</string>
+    <string name="dialog_lang_en">English</string>
+    <string name="dialog_lang_ru">Русский</string>
+    <string name="dialog_lang_de">Deutsch</string>
+    <string name="dialog_lang_es">Español</string>
+    <string name="dialog_lang_fr">Français</string>
+    <string name="dialog_lang_ja">日本語</string>
+    <string name="dialog_lang_ko">한국어</string>
+    <string name="dialog_lang_pt">Portugues</string>
+    <string name="dialog_lang_zh">中文（简体）</string>
+    <string name="dialog_lang_zh_rtw">中文（繁體）</string>
+
+    <string name="dictaphone_label">Dictáfono</string>
+    <string name="dialog_delete_dictaphone">¿Realmente quieres eliminar el registro?</string>
+    <string name="dictaphone_edit_text_hint">Nombre del registro</string>
+    <string name="dialog_action_after_call_nothing">Hacer nada</string>
+
+    <string name="dictaphone_toast_start_record">Grabación comenzada</string>
+    <string name="dictaphone_toast_stop_record">Grabación terminada</string>
+    <string name="dictaphone_toast_stop_error">Se produjo un error al grabar</string>
+    <string name="settings_file_extension">Elegir la extensión de archivo</string>
+    <string name="dialog_file_ext_amr">AMR</string>
+    <string name="dialog_file_ext_three_gp">3GP</string>
+    <string name="dialog_file_ext_mp_four">MP4</string>
+    <string name="settings_audio_source_label">Elegir la fuente de audio manualmente</string>
+    <string name="settings_audio_source">Elegir fuente de audio</string>
+    <string name="settings_audio_source_desc">Intenta elegir la fuente de audio manualmente. ¡Atención! El funcionamiento inestable del programa es posible. Es posible que la conversación no se grabe.</string>
+    <string name="dialog_audio_source_vc">Voice Communication</string>
+    <string name="dialog_audio_source_mic">Mic</string>
+    <string name="dialog_audio_source_vr">Voice Recognition</string>
+    <string name="dialog_audio_source_v_call">Voice Call</string>
+    <string name="dialog_audio_source_default">Default</string>
+    <string name="audio_source_error">Se ha producido un error durante la grabación. El registro no se guarda.</string>
+    <string name="notification_enable_text">Grabación automática activada</string>
+    <string name="notification_disable_text">Grabación automática desactivada</string>
+    <string name="settings_widget">Activar widget para grabación</string>
+    <string name="dialog_widget_body">Agregamos una nueva función en la pantalla de llamadas. Ahora puede comenzar a grabar una conversación en cualquier momento, incluso si deshabilita la grabación automática de llamadas. El widget aparecerá automáticamente durante la llamada. Puede arrastrarlo a cualquier lugar que sea apropiado para usted. Para comenzar / detener la grabación, toque la parte superior del widget. Puede eliminar el widget en el menú de configuración.</string>
+
+    <string name="record_time">Tiempo de grabación</string>
+    <string name="settings_other">Ajustes adicionales</string>
+
+    <string name="skins">Temas</string>
+    <string name="theme_red">Rojo</string>
+    <string name="theme_blue">Azul</string>
+
+    <string name="dialog_system_alert_window">Para permitir que el widget de grabación funcione en la pantalla de llamadas, es necesario otorgar un permiso especial. Si se niega, el widget no aparecerá en la pantalla de llamadas. Puede activar y desactivar el widget en la configuración.</string>
+
+    <string name="settings_audio_source_default_desc">Fuente de audio predeterminada</string>
+    <string name="settings_audio_source_vc_desc">Fuente de audio de micrófono sintonizada para comunicaciones de voz como VoIP</string>
+    <string name="settings_audio_source_mic_desc">Fuente de audio de micrófono</string>
+    <string name="settings_audio_source_vr_desc">Fuente de audio de micrófono sintonizada para reconocimiento de voz</string>
+    <string name="settings_audio_source_v_call_desc">Fuente de audio de llamada de voz uplink + downlink (¡Atención! Puede no funcionar en todos los dispositivos).</string>
+
+    <string name="toast_error">Ocurrió un error. Inténtalo de nuevo</string>
+    <string name="toast_export">El archivo se descargó</string>
+    <string name="theme_green">Verde</string>
+    <string name="share_record_google_drive">Subir a Google Drive</string>
+    <string name="list_title_today">Hoy</string>
+    <string name="list_title_yesterday">Ayer</string>
+
+    <string name="settings_post_call_time">Demora de registro</string>
+    <string name="settings_post_call_time_desc">Establezca el tiempo de retraso de la grabación de llamadas en segundos</string>
+    <string name="dialog_post_call_time_error">El tiempo de retardo debe ser de 0 a 20 segundos</string>
+    <string name="sec">sec</string>
+
+    <string name="fab_text_delete_dictaphone">Eliminar registros de voz</string>
+    <string name="custom_tab_call_text">Registros de llamadas</string>
+    <string name="custom_tab_voice_text">Registros de voz</string>
+    <string name="app_description">La mejor herramienta de grabación</string>
+    <string name="home">Casa</string>
+    <string name="footer">Copyright © QRecorder 2018. Todos los derechos reservados</string>
+    <string name="moreapps">Más aplicaciones</string>
+    <string name="privacypolicy">Política de privacidad</string>
+    <string name="shareapp">Compartir aplicación</string>
+    <string name="aboutus">Sobre nosotros</string>
+    <string name="rateus">Nos califica</string>
+</resources>

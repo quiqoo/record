@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary_theme1">#28304C</color>
+    <color name="colorPrimaryDark_theme1">#1E243A</color>
+    <color name="colorAccent_theme1">#28304c</color>
+
+
+    <color name="color_splash_gradient_start">#3F4A6D</color>
+    <color name="color_splash_gradient_end">#28304C</color>
+
+
+    <color name="color_list_text_color">#ffffff</color>
+    <color name="color_list_text_desc_color">#B3BBD4</color>
+
+    <color name="dialog_text_color">#000000</color>
+    <color name="dialog_button_color">#000000</color>
+
+    <color name="color_switch_button">#ffffff</color>
+
+    <color name="main_button_text_color">#ffffff</color>
+
+    <color name="color_charging_end_text">#B3BBD4</color>
+    <color name="color_charging_end_value">#ffffff</color>
+    <color name="color_button_text">#ffffff</color>
+
+    <color name="color_file_manager_toolbar">#28304C</color>
+    <color name="color_file_manager_dir">#947FEE</color>
+
+    <color name="color_edit_record_text">#fdfdfd</color>
+
+    <color name="color_pin_btn_text">#FFFFFF</color>
+    <color name="demarcation_line">#19ffffff</color>
+
+    <color name="color_settings_pin_unselected">#c5cde4</color>
+    <color name="color_settings_pin_desc">#B3BBD4</color>
+
+    <color name="circle_anim_color_start_theme1">#5CB9F2</color>
+
+    <color name="color_record_window_text">#ffffff</color>
+
+    <color name="color_fab_btn_white">#ffffff</color>
+
+    <color name="color_icons_theme1">#ffffff</color>
+
+    <color name="color_switch_background_main_enable_theme1">#2D49A1</color>
+
+    <color name="color_switch_background_main_disable_theme1">#3E496C</color>
+
+
+
+    <color name="color_switch_background_enable_theme1">#957FEE</color>
+
+    <color name="color_switch_background_disable_theme1">#212840</color>
+
+
+    <color name="color_main_tab_layout_bg_theme1">#191F36</color>
+
+    <color name="color_main_toolbar_bg_theme1">#28304C</color>
+
+    <color name="color_main_divider_color_theme1">#8CC9EE</color>
+
+
+    <color name="custom_linear_text_color_checked">#ffffff</color>
+    <color name="custom_linear_text_color_unchecked">#A3A5AE</color>
+
+    <color name="btn_icon_white_color">#ffffff</color>
+    <color name="btn_gradient_color_end">#947FEE</color>
+    <color name="btn_gradient_color_start">#FF75AF</color>
+
+    <color name="color_icons_btn_dictaphone_theme1">#947FEE</color>
+
+    <color name="nv_bg_theme1">#ffffff</color>
+    <color name="nv_text_theme1">#434343</color>
+    <color name="nv_text_header_theme1">#ffffff</color>
+    <color name="colorAccent_cb">#947FEE</color>
+
+    <color name="button_transparent_normal">#00ffffff</color>
+    <color name="button_transparent_pressed">#22ffffff</color>
+    <color name="button_transparent_dark_normal">#00000000</color>
+    <color name="button_transparent_dark_pressed">#11000000</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#A854D4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+
+</resources>

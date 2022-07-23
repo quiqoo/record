@@ -1,0 +1,164 @@
+<resources>
+
+    <string name="main_screen_call_all_fragment">모든</string>
+    <string name="main_screen_call_incoming_fragment">들어오는</string>
+    <string name="main_screen_call_outgoing_fragment">나가는</string>
+
+    <string name="apply_text">승인</string>
+    <string name="cancel_text">취소</string>
+
+    <string name="dialog_delete_call_confirm_error">재생에 문제가 발생했습니다. 파일이 삭제되었을 수 있습니다. 데이터베이스에서이 파일을 삭제 하시겠습니까?</string>
+    <string name="dialog_delete_call_confirm">이 파일을 정말로 삭제 하시겠습니까?</string>
+    <string name="record_enable">기록 사용</string>
+    <string name="record_disable">기록 사용 중지</string>
+
+    <string name="no_record_call_title">녹음 된 통화 없음</string>
+    <string name="search_title">수색</string>
+    <string name="action_delete_title">지우다</string>
+    <string name="action_add_favorite_title">즐겨 찾기에 추가</string>
+    <string name="action_remove_favorite_title">즐겨 찾기에서 제거</string>
+    <string name="sort_by_date">날짜순 정렬</string>
+    <string name="sort_by_name">이름으로 정렬</string>
+
+    <string name="main_screen_call_favorite_fragment">특히 잘하는</string>
+
+    <string name="hint_text_enter_desc_label">테마</string>
+    <string name="hint_text_enter_desc">메모 입력</string>
+    <string name="call_recorded">전화가 녹음되었습니다.</string>
+    <string name="change_save_folder_to">저장 폴더가로 변경됨</string>
+    <string name="share_record">이 레코드 공유</string>
+    <string name="share_add_filter">이 연락처와 대화를 녹음하지 마십시오.</string>
+    <string name="delete_contact">레코드 삭제</string>
+    <string name="dialog_call_type_record_all">모든 전화</string>
+    <string name="dialog_call_type_record_incoming">수신 전화</string>
+    <string name="dialog_call_type_record_outgoing">발신 전화</string>
+    <string name="dialog_call_type_record_unknown">알 수없는 번호</string>
+    <string name="dialog_call_type_record_change">전화 대화 유형이 다음으로 변경되었습니다.</string>
+
+    <string name="pin_title_set">PIN 입력</string>
+    <string name="pin_title_confirm">PIN 확인</string>
+    <string name="pin_empty_password">암호를 입력</string>
+    <string name="pin_password_not_confirm">비밀번호가 확인되지 않음</string>
+    <string name="pin_password_confirm">비밀번호 저장 됨</string>
+
+    <string name="settings">설정</string>
+    <string name="settings_record_type">기록의 변형</string>
+    <string name="settings_ignore_list">녹음을 위해 무시 된 연락처</string>
+    <string name="settings_pin">PIN 보호</string>
+    <string name="settings_path">레코드 경로</string>
+    <string name="settings_sort">정렬 방법</string>
+    <string name="settings_share">몫</string>
+    <string name="settings_rate_us">우리를 평가해라.</string>
+    <string name="settings_pin_select_title">PIN 설정</string>
+    <string name="settings_pin_select_desc">녹음 된 대화를 보호하기 위해 PIN 설정</string>
+
+    <string name="dialog_call_sort_change">통화 정렬 유형이 다음으로 변경되었습니다.</string>
+
+    <string name="share_text">통화 녹음기를 사용하여 전화 대화를 녹음 할 때 나는 그것을 좋아할 것이라고 생각합니다. 휴대 전화에 통화 기록 장치 설치 :</string>
+
+    <string name="ignore_list_title">무시 된 연락처</string>
+    <string name="ignore_list_delete_confirm">쓰기 위해 무시되는 연락처를 목록에서 삭제 하시겠습니까?</string>
+    <string name="ignore_contact_add">연락처가 목록에 추가됩니다.</string>
+    <string name="ignore_contact_add_error">연락처를 추가하는 동안 오류가 발생했습니다.</string>
+    <string name="ignore_contact_exists">목록에 이미 그러한 번호가 있습니다.</string>
+
+    <string name="play_contact_default">플레이어에서 재생</string>
+    <string name="dialog_save_desc_confirm">종료하기 전에 변경 사항을 저장 하시겠습니까?</string>
+    <string name="no_text">아니</string>
+    <string name="yes_text">예</string>
+
+    <string name="delete_text">지우다</string>
+    <string name="delete_header">레코드 삭제하기</string>
+    <string name="dialog_delete_all_check">선택한 레코드를 삭제 하시겠습니까?</string>
+    <string name="fab_text_delete_all">선택한 레코드 삭제</string>
+    <string name="fab_text_delete_contacts">연락처 기록 삭제</string>
+
+    <string name="settings_action_after_call">통화 후 작업 선택</string>
+    <string name="dialog_action_after_call_notification">알림 표시</string>
+    <string name="dialog_action_after_call_open">레코드 편집 창 열기</string>
+    <string name="dialog_action_after_call_change">통화 후 작업 유형이 다음으로 변경됩니다.</string>
+
+    <string name="dialog_attention_label">주의</string>
+    <string name="dialog_attention">일부 장치에서는 응용 프로그램이 제대로 작동하지 않을 수 있습니다. 녹음 품질을 향상 시키려면 대화 중에 소리를 추가하는 것이 좋습니다.</string>
+
+    <string name="settings_max_call_volume">최대 통화 중 볼륨 설정</string>
+
+    <string name="settings_lang">언어</string>
+    <string name="dialog_lang_default">태만</string>
+    <string name="dialog_lang_en">English</string>
+    <string name="dialog_lang_ru">Русский</string>
+    <string name="dialog_lang_de">Deutsch</string>
+    <string name="dialog_lang_es">Español</string>
+    <string name="dialog_lang_fr">Français</string>
+    <string name="dialog_lang_ja">日本語</string>
+    <string name="dialog_lang_ko">한국어</string>
+    <string name="dialog_lang_pt">Portugues</string>
+    <string name="dialog_lang_zh">中文（简体）</string>
+    <string name="dialog_lang_zh_rtw">中文（繁體）</string>
+
+    <string name="dictaphone_label">딕 터폰</string>
+    <string name="dialog_delete_dictaphone">정말로 레코드를 삭제 하시겠습니까?</string>
+    <string name="dictaphone_edit_text_hint">기록 이름</string>
+    <string name="dialog_action_after_call_nothing">아무것도하지 마세요</string>
+
+    <string name="dictaphone_toast_start_record">녹음 시작됨</string>
+    <string name="dictaphone_toast_stop_record">녹음 중지됨</string>
+    <string name="dictaphone_toast_stop_error">녹화 중 오류가 발생했습니다.</string>
+    <string name="settings_file_extension">파일 확장자 선택</string>
+    <string name="dialog_file_ext_amr">AMR</string>
+    <string name="dialog_file_ext_three_gp">3GP</string>
+    <string name="dialog_file_ext_mp_four">MP4</string>
+    <string name="settings_audio_source_label">수동으로 오디오 소스 선택</string>
+    <string name="settings_audio_source">오디오 소스 선택</string>
+    <string name="settings_audio_source_desc">오디오 소스를 수동으로 선택하십시오. 주의! 프로그램의 불안정한 작동이 가능합니다. 대화는 녹음되지 않을 수 있습니다.</string>
+    <string name="dialog_audio_source_vc">Voice Communication</string>
+    <string name="dialog_audio_source_mic">Mic</string>
+    <string name="dialog_audio_source_vr">Voice Recognition</string>
+    <string name="dialog_audio_source_v_call">Voice Call</string>
+    <string name="dialog_audio_source_default">Default</string>
+    <string name="audio_source_error">녹음하는 동안 오류가 발생했습니다. 레코드가 저장되지 않았습니다.</string>
+    <string name="notification_enable_text">자동 녹음 사용</string>
+    <string name="notification_disable_text">자동 녹음 사용 중지됨</string>
+    <string name="settings_widget">녹음을 위해 위젯 활성화</string>
+    <string name="dialog_widget_body">우리는 전화 화면에 새로운 기능을 추가했습니다. 자동 통화 기록을 사용하지 않도록 설정해도 언제든지 대화를 녹음 할 수 있습니다. 위젯은 통화 도중 자동으로 나타납니다. 당신을 당신을 위해 적당한 장소로 끌 수 있습니다. 녹음을 시작 / 중지하려면 위젯의 상단 부분을 탭하십시오. 설정 메뉴에서 위젯을 제거 할 수 있습니다.</string>
+
+    <string name="record_time">녹음 시간</string>
+    <string name="settings_other">추가 설정</string>
+
+    <string name="skins">테마</string>
+    <string name="theme_red">빨간</string>
+    <string name="theme_blue">푸른</string>
+
+    <string name="dialog_system_alert_window">녹음 위젯이 호출 화면에서 작동하게하려면 특별한 허가를 받아야합니다. 거절하면 통화 화면에 위젯이 표시되지 않습니다. 설정에서 위젯을 켜거나 끌 수 있습니다.</string>
+
+    <string name="settings_audio_source_default_desc">기본 오디오 소스</string>
+    <string name="settings_audio_source_vc_desc">VoIP와 같은 음성 통신용으로 조정 된 마이크 오디오 소스</string>
+    <string name="settings_audio_source_mic_desc">마이크 오디오 소스</string>
+    <string name="settings_audio_source_vr_desc">음성 인식을 위해 조정 된 마이크 오디오 소스</string>
+    <string name="settings_audio_source_v_call_desc">음성 통화 업 링크 + 다운 링크 오디오 소스 (주의! 모든 장치에서 작동하지 않을 수도 있음).</string>
+
+    <string name="toast_error">오류가 발생했습니다. 다시 시도하십시오.</string>
+    <string name="toast_export">파일 다운로드 중</string>
+    <string name="theme_green">녹색</string>
+    <string name="share_record_google_drive">구글 드라이브 에 업로드</string>
+    <string name="list_title_today">오늘</string>
+    <string name="list_title_yesterday">어제</string>
+
+    <string name="settings_post_call_time">기록의 지연</string>
+    <string name="settings_post_call_time_desc">통화 기록 지연 시간을 초 단위로 설정합니다.</string>
+    <string name="dialog_post_call_time_error">지연 시간은 0에서 20 초 사이 여야합니다.</string>
+    <string name="sec">sec</string>
+
+    <string name="fab_text_delete_dictaphone">음성 녹음 삭제</string>
+    <string name="custom_tab_call_text">통화 기록</string>
+    <string name="custom_tab_voice_text">음성 녹음</string>
+    <string name="home">집</string>
+    <string name="app_description">최고의 녹음 도구</string>
+    <string name="footer">저작권 © QRecorder 2018. 모든 권리 보유</string>
+    <string name="moreapps">더 많은 애플 리케이션</string>
+    <string name="privacypolicy">개인 정보 정책</string>
+    <string name="shareapp">앱 공유</string>
+    <string name="aboutus">회사 소개</string>
+    <string name="rateus">우리 평가하기</string>
+
+</resources>

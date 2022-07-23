@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/settings_margin"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lang_default_layout"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_lang_default"
+                        android:textColor="@color/color_edit_record_text"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/settings_margin"
+                    android:gravity="right">
+                    <ImageView
+                        android:id="@+id/lang_default_ic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/settings_check_ic"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/demarcation_line" />
+
+            <LinearLayout
+                android:id="@+id/lang_en_layout"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_lang_en"
+                        android:textColor="@color/color_edit_record_text"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/settings_margin"
+                    android:gravity="right">
+                    <ImageView
+                        android:id="@+id/lang_en_ic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/settings_check_ic"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/demarcation_line" />
+
+            <LinearLayout
+                android:id="@+id/lang_ru_layout"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_lang_ru"
+                        android:textColor="@color/color_edit_record_text"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/settings_margin"
+                    android:gravity="right">
+                    <ImageView
+                        android:id="@+id/lang_ru_ic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/settings_check_ic"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/demarcation_line" />
+
+            <LinearLayout
+                android:id="@+id/lang_de_layout"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_lang_de"
+                        android:textColor="@color/color_edit_record_text"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/settings_margin"
+                    android:gravity="right">
+                    <ImageView
+                        android:id="@+id/lang_de_ic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/settings_check_ic"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/demarcation_line" />
+
+            <LinearLayout
+                android:id="@+id/lang_es_layout"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_lang_es"
+                        android:textColor="@color/color_edit_record_text"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/settings_margin"
+                    android:gravity="right">
+                    <ImageView
+                        android:id="@+id/lang_es_ic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/settings_check_ic"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/demarcation_line" />
+
+            <LinearLayout
+                android:id="@+id/lang_fr_layout"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_lang_fr"
+                        android:textColor="@color/color_edit_record_text"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/settings_margin"
+                    android:gravity="right">
+                    <ImageView
+                        android:id="@+id/lang_fr_ic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/settings_check_ic"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/demarcation_line" />
+
+            <LinearLayout
+                android:id="@+id/lang_ja_layout"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_lang_ja"
+                        android:textColor="@color/color_edit_record_text"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/settings_margin"
+                    android:gravity="right">
+                    <ImageView
+                        android:id="@+id/lang_ja_ic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/settings_check_ic"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/demarcation_line" />
+
+            <LinearLayout
+                android:id="@+id/lang_ko_layout"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_lang_ko"
+                        android:textColor="@color/color_edit_record_text"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/settings_margin"
+                    android:gravity="right">
+                    <ImageView
+                        android:id="@+id/lang_ko_ic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/settings_check_ic"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/demarcation_line" />
+
+            <LinearLayout
+                android:id="@+id/lang_pt_layout"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_lang_pt"
+                        android:textColor="@color/color_edit_record_text"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/settings_margin"
+                    android:gravity="right">
+                    <ImageView
+                        android:id="@+id/lang_pt_ic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/settings_check_ic"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/demarcation_line" />
+
+            <LinearLayout
+                android:id="@+id/lang_zh_layout"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_lang_zh"
+                        android:textColor="@color/color_edit_record_text"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/settings_margin"
+                    android:gravity="right">
+                    <ImageView
+                        android:id="@+id/lang_zh_ic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/settings_check_ic"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/demarcation_line" />
+
+            <LinearLayout
+                android:id="@+id/lang_zh_rtw_layout"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_lang_zh_rtw"
+                        android:textColor="@color/color_edit_record_text"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/settings_margin"
+                    android:gravity="right">
+                    <ImageView
+                        android:id="@+id/lang_zh_rtw_ic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/settings_check_ic"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/demarcation_line" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="bottom">
+
+        <!--/*banner */ -->
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/admob_adview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit"/>
+    </LinearLayout>
+
+</LinearLayout>

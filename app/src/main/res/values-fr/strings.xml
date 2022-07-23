@@ -1,0 +1,163 @@
+<resources>
+
+    <string name="main_screen_call_all_fragment">Tout</string>
+    <string name="main_screen_call_incoming_fragment">Entrant</string>
+    <string name="main_screen_call_outgoing_fragment">Sortant</string>
+
+    <string name="apply_text">Ok</string>
+    <string name="cancel_text">Annuler</string>
+
+    <string name="dialog_delete_call_confirm_error">Il y a eu un problème avec la lecture. Le fichier peut avoir été supprimé. Voulez-vous supprimer ce fichier de la base de données?</string>
+    <string name="dialog_delete_call_confirm">Êtes-vous sûr de vouloir supprimer ce fichier?</string>
+    <string name="record_enable">Activer l\'enregistrement</string>
+    <string name="record_disable">Record disable</string>
+
+    <string name="no_record_call_title">Pas d\'appels enregistrés</string>
+    <string name="search_title">Chercher</string>
+    <string name="action_delete_title">Effacer</string>
+    <string name="action_add_favorite_title">Ajouter aux Favoris</string>
+    <string name="action_remove_favorite_title">Retirer des favoris</string>
+    <string name="sort_by_date">Trier par date</string>
+    <string name="sort_by_name">Trier par nom</string>
+
+    <string name="main_screen_call_favorite_fragment">Préféré</string>
+
+    <string name="hint_text_enter_desc_label">Thème</string>
+    <string name="hint_text_enter_desc">Entrez une note</string>
+    <string name="call_recorded">L\'appel est enregistré</string>
+    <string name="change_save_folder_to">Enregistrer le dossier modifié à</string>
+    <string name="share_record">Partager cet enregistrement</string>
+    <string name="share_add_filter">Ne pas enregistrer de conversation avec ce contact</string>
+    <string name="delete_contact">Supprimer l\'enregistrement</string>
+    <string name="dialog_call_type_record_all">Tous les appels</string>
+    <string name="dialog_call_type_record_incoming">Les appels entrants</string>
+    <string name="dialog_call_type_record_outgoing">Les appels sortants</string>
+    <string name="dialog_call_type_record_unknown">Numéros inconnus</string>
+    <string name="dialog_call_type_record_change">Le type de conversation téléphonique a changé pour:</string>
+
+    <string name="pin_title_set">Entrez le PIN</string>
+    <string name="pin_title_confirm">Confirmer le code PIN</string>
+    <string name="pin_empty_password">Entrer le mot de passe</string>
+    <string name="pin_password_not_confirm">Mot de passe non vérifié</string>
+    <string name="pin_password_confirm">Mot de passe sauvegardé</string>
+
+    <string name="settings">Paramètres</string>
+    <string name="settings_record_type">Variante d\'enregistrement</string>
+    <string name="settings_ignore_list">Contacts ignorés pour l\'enregistrement</string>
+    <string name="settings_pin">Protection par code PIN</string>
+    <string name="settings_path">Chemin d\'accès aux enregistrements</string>
+    <string name="settings_sort">Méthode de tri</string>
+    <string name="settings_share">Partager</string>
+    <string name="settings_rate_us">Évaluez nous</string>
+    <string name="settings_pin_select_title">Set PIN</string>
+    <string name="settings_pin_select_desc">Définissez un code PIN pour protéger vos conversations enregistrées</string>
+
+    <string name="dialog_call_sort_change">Type de tri d\'appel modifié à:</string>
+
+    <string name="share_text">Pour enregistrer des conversations téléphoniques, j\'utilise Call Recorder, je pense que vous pourriez l\'aimer. Installez l\'enregistreur d\'appel sur votre téléphone:</string>
+
+    <string name="ignore_list_title">Contacts ignorés</string>
+    <string name="ignore_list_delete_confirm">Supprimez un contact de la liste ignorée pour l\'écriture?</string>
+    <string name="ignore_contact_add">Le contact est ajouté à la liste</string>
+    <string name="ignore_contact_add_error">Une erreur s\'est produite lors de l\'ajout du contact</string>
+    <string name="ignore_contact_exists">Dans la liste existe déjà ce nombre</string>
+
+    <string name="play_contact_default">Jouez dans votre lecteur</string>
+    <string name="dialog_save_desc_confirm">Enregistrer les modifications avant de quitter?</string>
+    <string name="no_text">Non</string>
+    <string name="yes_text">Oui</string>
+
+    <string name="delete_text">Effacer</string>
+    <string name="delete_header">Suppression de dossiers</string>
+    <string name="dialog_delete_all_check">Êtes-vous sûr de vouloir supprimer les enregistrements sélectionnés?</string>
+    <string name="fab_text_delete_all">Supprimer les enregistrements sélectionnés</string>
+    <string name="fab_text_delete_contacts">Supprimer les enregistrements de contact</string>
+
+    <string name="settings_action_after_call">Sélectionnez une action après un appel</string>
+    <string name="dialog_action_after_call_notification">Montrer les notifications</string>
+    <string name="dialog_action_after_call_open">Ouvrir la fenêtre d\'édition des enregistrements</string>
+    <string name="dialog_action_after_call_change">Le type d\'action après l\'appel est changé en:</string>
+
+    <string name="dialog_attention_label">Attention</string>
+    <string name="dialog_attention">L\'application peut ne pas fonctionner correctement sur certains périphériques. Pour améliorer la qualité de l\'enregistrement, nous vous conseillons d\'ajouter du son pendant la conversation.</string>
+
+    <string name="settings_max_call_volume">Réglez le volume pendant un appel au maximum</string>
+
+    <string name="settings_lang">La langue</string>
+    <string name="dialog_lang_default">Défaut</string>
+    <string name="dialog_lang_en">English</string>
+    <string name="dialog_lang_ru">Русский</string>
+    <string name="dialog_lang_de">Deutsch</string>
+    <string name="dialog_lang_es">Español</string>
+    <string name="dialog_lang_fr">Français</string>
+    <string name="dialog_lang_ja">日本語</string>
+    <string name="dialog_lang_ko">한국어</string>
+    <string name="dialog_lang_pt">Portugues</string>
+    <string name="dialog_lang_zh">中文（简体）</string>
+    <string name="dialog_lang_zh_rtw">中文（繁體）</string>
+
+    <string name="dictaphone_label">Dictaphone</string>
+    <string name="dialog_delete_dictaphone">Voulez-vous vraiment supprimer l\'enregistrement?</string>
+    <string name="dictaphone_edit_text_hint">Nom de l\'enregistrement</string>
+    <string name="dialog_action_after_call_nothing">Ne faire rien</string>
+
+    <string name="dictaphone_toast_start_record">Enregistrement commencé</string>
+    <string name="dictaphone_toast_stop_record">Enregistrement arrêté</string>
+    <string name="dictaphone_toast_stop_error">Une erreur s\'est produite pendant l\'enregistrement</string>
+    <string name="settings_file_extension">Choisir l\'extension du fichier</string>
+    <string name="dialog_file_ext_amr">AMR</string>
+    <string name="dialog_file_ext_three_gp">3GP</string>
+    <string name="dialog_file_ext_mp_four">MP4</string>
+    <string name="settings_audio_source_label">Choisir manuellement la source audio</string>
+    <string name="settings_audio_source">Choisir une source audio</string>
+    <string name="settings_audio_source_desc">Essayez de choisir la source audio manuellement. Attention! Le fonctionnement instable du programme est possible. La conversation peut ne pas être enregistrée.</string>
+    <string name="dialog_audio_source_vc">Voice Communication</string>
+    <string name="dialog_audio_source_mic">Mic</string>
+    <string name="dialog_audio_source_vr">Voice Recognition</string>
+    <string name="dialog_audio_source_v_call">Voice Call</string>
+    <string name="dialog_audio_source_default">Default</string>
+    <string name="audio_source_error">Une erreur s\'est produite pendant l\'enregistrement. L\'enregistrement n\'est pas sauvegardé.</string>
+    <string name="notification_enable_text">Enregistrement automatique activé</string>
+    <string name="notification_disable_text">Enregistrement automatique désactivé</string>
+    <string name="settings_widget">Activer le widget pour l\'enregistrement</string>
+    <string name="dialog_widget_body">Nous avons ajouté une nouvelle fonction sur l\'écran d\'appel. Vous pouvez maintenant commencer à enregistrer une conversation à tout moment, même si vous avez désactivé l\'enregistrement automatique des appels. Le widget apparaîtra automatiquement pendant l\'appel. Vous pouvez le faire glisser à n\'importe quel endroit approprié pour vous. Pour démarrer / arrêter l\'enregistrement, appuyez sur la partie supérieure du widget. Vous pouvez supprimer le widget dans le menu des paramètres.</string>
+
+    <string name="record_time">Temps d\'enregistrement</string>
+    <string name="settings_other">Paramètres supplémentaires</string>
+
+    <string name="skins">Thèmes</string>
+    <string name="theme_red">Rouge</string>
+    <string name="theme_blue">Bleu</string>
+
+    <string name="dialog_system_alert_window">Pour que le widget d\'enregistrement fonctionne sur l\'écran d\'appel, il est nécessaire de donner une autorisation spéciale. Si vous refusez, le widget n\'apparaîtra pas sur l\'écran d\'appel. Vous pouvez activer et désactiver le widget dans les paramètres.</string>
+
+    <string name="settings_audio_source_default_desc">Source audio par défaut</string>
+    <string name="settings_audio_source_vc_desc">Source audio du microphone syntonisée pour les communications vocales telles que VoIP</string>
+    <string name="settings_audio_source_mic_desc">Source audio du microphone</string>
+    <string name="settings_audio_source_vr_desc">La source audio du microphone est accordée pour la reconnaissance vocale</string>
+    <string name="settings_audio_source_v_call_desc">Source audio d\'appel vocal uplink + downlink (Attention, risque de ne pas fonctionner sur tous les appareils).</string>
+
+    <string name="toast_error">Une erreur s\'est produite. Veuillez réessayer.</string>
+    <string name="toast_export">Le fichier est téléchargé</string>
+    <string name="theme_green">Vert</string>
+    <string name="share_record_google_drive">Importer sur Google Drive</string>
+    <string name="list_title_today">Aujourd\'hui</string>
+    <string name="list_title_yesterday">Hier</string>
+
+    <string name="settings_post_call_time">Retard d\'enregistrement</string>
+    <string name="settings_post_call_time_desc">Définir l\'heure du délai d\'enregistrement d\'appel en secondes</string>
+    <string name="dialog_post_call_time_error">Le temps de retard devrait être de 0 à 20 secondes</string>
+    <string name="sec">sec</string>
+
+    <string name="fab_text_delete_dictaphone">Supprimer les enregistrements vocaux</string>
+    <string name="custom_tab_call_text">Appeler les enregistrements</string>
+    <string name="custom_tab_voice_text">Enregistrements vocaux</string>
+    <string name="home">Accueil</string>
+    <string name="rateus">Évaluez nous</string>
+    <string name="aboutus">À propos de nous</string>
+    <string name="shareapp">Partager l\'application</string>
+    <string name="privacypolicy">Politique de confidentialité</string>
+    <string name="moreapps">Plus d\'applications</string>
+    <string name="footer">Copyright © QRecorder 2018. Tous droits réservés</string>
+    <string name="app_description">Le meilleur outil d\'enregistrement</string>
+</resources>

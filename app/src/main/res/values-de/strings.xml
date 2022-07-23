@@ -1,0 +1,163 @@
+<resources>
+
+    <string name="main_screen_call_all_fragment">Alle</string>
+    <string name="main_screen_call_incoming_fragment">Eingehend</string>
+    <string name="main_screen_call_outgoing_fragment">Ausgehend</string>
+    
+    <string name="apply_text">OK</string>
+    <string name="cancel_text">Stornieren</string>
+
+    <string name="dialog_delete_call_confirm_error">Es gab ein Problem mit der Wiedergabe. Die Datei wurde möglicherweise gelöscht. Möchten Sie diese Datei aus der Datenbank löschen?</string>
+    <string name="dialog_delete_call_confirm">Möchten Sie diese Datei wirklich löschen?</string>
+    <string name="record_enable">Aufzeichnung aktivieren</string>
+    <string name="record_disable"> Aufzeichnung deaktivieren</string>
+
+    <string name="no_record_call_title">Keine aufgezeichneten Anrufe</string>
+    <string name="search_title">Suche</string>
+    <string name="action_delete_title">Löschen</string>
+    <string name="action_add_favorite_title">Zu Favoriten hinzufügen</string>
+    <string name="action_remove_favorite_title">Von Favoriten entfernen</string>
+    <string name="sort_by_date">Nach Datum sortieren</string>
+    <string name="sort_by_name">Nach Name sortieren</string>
+
+    <string name="main_screen_call_favorite_fragment">Favorit</string>
+
+    <string name="hint_text_enter_desc_label">Thema</string>
+    <string name="hint_text_enter_desc">Geben sie eine notiz ein</string>
+    <string name="call_recorded">Anruf wird aufgezeichnet</string>
+    <string name="change_save_folder_to">Ordner speichern geändert</string>
+    <string name="share_record">Diesen datensatz teilen</string>
+    <string name="share_add_filter">Nehmen sie keine gespräche mit diesem kontakt auf</string>
+    <string name="delete_contact">Datensatz löschen</string>
+    <string name="dialog_call_type_record_all">Alle anrufe</string>
+    <string name="dialog_call_type_record_incoming">Eingehende anrufe</string>
+    <string name="dialog_call_type_record_outgoing">Ausgehende anrufe</string>
+    <string name="dialog_call_type_record_unknown">Unbekannte zahlen</string>
+    <string name="dialog_call_type_record_change">Die art der telefongespräche wurde geändert in:</string>
+
+    <string name="pin_title_set">Pin eingeben</string>
+    <string name="pin_title_confirm">PIN bestätigen</string>
+    <string name="pin_empty_password">Passwort eingeben</string>
+    <string name="pin_password_not_confirm">Passwort nicht überprüft</string>
+    <string name="pin_password_confirm">Passwort gespeichert</string>
+
+    <string name="settings">Einstellungen</string>
+    <string name="settings_record_type">Änderungsvariante</string>
+    <string name="settings_ignore_list">Ignorierte kontakte für die aufnahme</string>
+    <string name="settings_pin">PIN-schutz</string>
+    <string name="settings_path">Pfad zu datensätzen</string>
+    <string name="settings_sort">Sortiermethode</string>
+    <string name="settings_share">Aktie</string>
+    <string name="settings_rate_us">Bewerten sie uns</string>
+    <string name="settings_pin_select_title">PIN setzen</string>
+    <string name="settings_pin_select_desc">Setzen sie eine PIN, um Ihre aufgezeichneten gespräche zu schützen</string>
+
+    <string name="dialog_call_sort_change">Aufruf sortierungstyp geändert in:</string>
+
+    <string name="share_text">Für die aufnahme von telefongesprächen verwende ich Call Recorder, ich denke, dass du es möchtest. Installieren sie Call Recorder auf Ihrem telefon:</string>
+
+    <string name="ignore_list_title">Ignorierte kontakte</string>
+    <string name="ignore_list_delete_confirm">Löschen sie einen kontakt aus der liste, die zum schreiben ignoriert wird?</string>
+    <string name="ignore_contact_add">Kontakt wird zur liste hinzugefügt</string>
+    <string name="ignore_contact_add_error">Beim hinzufügen des kontakts ist ein fehler aufgetreten</string>
+    <string name="ignore_contact_exists">In der liste existiert bereits eine solche nummer</string>
+
+    <string name="play_contact_default">Spielen sie in Ihrem spieler</string>
+    <string name="dialog_save_desc_confirm">Änderungen vor dem beenden speichern</string>
+    <string name="no_text">Nein</string>
+    <string name="yes_text">Ja</string>
+
+    <string name="delete_text">Löschen</string>
+    <string name="delete_header">Datensätze löschen</string>
+    <string name="dialog_delete_all_check">Sind sie sicher, dass sie die ausgewählten datensätze löschen möchten?</string>
+    <string name="fab_text_delete_all">Ausgewählte datensätze löschen</string>
+    <string name="fab_text_delete_contacts">Kontaktdatensätze löschen</string>
+
+    <string name="settings_action_after_call">Wählen sie nach einem anruf eine aktion aus</string>
+    <string name="dialog_action_after_call_notification">Benachrichtigung anzeigen</string>
+    <string name="dialog_action_after_call_open">Öffnen sie das datensatzbearbeitungsfenster</string>
+    <string name="dialog_action_after_call_change">Die art der aktion nach dem aufruf wird geändert in:</string>
+
+    <string name="dialog_attention_label">Aufmerksamkeit</string>
+    <string name="dialog_attention">Die anwendung funktioniert bei einigen geräten möglicherweise nicht ordnungsgemäß. Um die qualität der aufzeichnung zu verbessern, empfehlen wir Ihnen, während des gesprächs ton hinzuzufügen.</string>
+
+    <string name="settings_max_call_volume">Stellen sie die lautstärke während eines anrufs auf das maximum ein</string>
+
+    <string name="settings_lang">Sprache</string>
+    <string name="dialog_lang_default">Standard</string>
+    <string name="dialog_lang_en">English</string>
+    <string name="dialog_lang_ru">Русский</string>
+    <string name="dialog_lang_de">Deutsch</string>
+    <string name="dialog_lang_es">Español</string>
+    <string name="dialog_lang_fr">Français</string>
+    <string name="dialog_lang_ja">日本語</string>
+    <string name="dialog_lang_ko">한국어</string>
+    <string name="dialog_lang_pt">Portugues</string>
+    <string name="dialog_lang_zh">中文（简体）</string>
+    <string name="dialog_lang_zh_rtw">中文（繁體）</string>
+
+    <string name="dictaphone_label">Diktiergerät</string>
+    <string name="dialog_delete_dictaphone">Möchten Sie den Datensatz wirklich löschen?</string>
+    <string name="dictaphone_edit_text_hint">Datensatzname</string>
+    <string name="dialog_action_after_call_nothing">Nichts zu tun</string>
+
+    <string name="dictaphone_toast_start_record">Aufzeichnung gestartet</string>
+    <string name="dictaphone_toast_stop_record">Aufzeichnung beendet</string>
+    <string name="dictaphone_toast_stop_error">Fehler beim Aufzeichnung aufgetreten</string>
+    <string name="settings_file_extension">Wählen Sie Dateierweiterung</string>
+    <string name="dialog_file_ext_amr">AMR</string>
+    <string name="dialog_file_ext_three_gp">3GP</string>
+    <string name="dialog_file_ext_mp_four">MP4</string>
+    <string name="settings_audio_source_label">Audio-Quelle manuell auswählen</string>
+    <string name="settings_audio_source">Audio-Quelle auswählen</string>
+    <string name="settings_audio_source_desc">Versuchen Sie, die Audioquelle manuell auszuwählen. Achtung! Instabile Funktion des Programms ist möglich. Die Unterhaltung wird möglicherweise nicht aufgezeichnet.</string>
+    <string name="dialog_audio_source_vc">Voice Communication</string>
+    <string name="dialog_audio_source_mic">Mic</string>
+    <string name="dialog_audio_source_vr">Voice Recognition</string>
+    <string name="dialog_audio_source_v_call">Voice Call</string>
+    <string name="dialog_audio_source_default">Default</string>
+    <string name="audio_source_error">Fehler beim Aufzeichnung aufgetreten. Der Datensatz wird nicht gespeichert</string>
+    <string name="notification_enable_text">Automatische Aufzeichnung aktiviert</string>
+    <string name="notification_disable_text">Automatische Aufzeichnung deaktiviert</string>
+    <string name="settings_widget">Widget für die Aufzeichnung aktivieren</string>
+    <string name="dialog_widget_body">Wir haben eine neue Funktion auf dem Anrufbildschirm hinzugefügt. Jetzt können Sie jederzeit eine Unterhaltung aufzeichnen, auch wenn Sie die automatische Anrufaufzeichnung deaktiviert haben. Das Widget wird während des Anrufs automatisch angezeigt. Sie können es an einen für Sie geeigneten Ort ziehen. Tippen Sie zum Starten / Beenden der Aufzeichnung auf den oberen Teil des Widgets. Sie können das Widget im Einstellungsmenü entfernen.</string>
+
+    <string name="record_time">Aufzeichnenzeit</string>
+    <string name="settings_other">Zusätzliche Einstellungen</string>
+
+    <string name="skins">Themen</string>
+    <string name="theme_red">Rot</string>
+    <string name="theme_blue">Blau</string>
+
+    <string name="dialog_system_alert_window">Damit das Aufzeichnen-Widget auf dem Anrufbildschirm funktionieren kann, muss eine spezielle Erlaubnis erteilt werden. Wenn Sie sich verweigern, wird das Widget nicht im Anrufbildschirm angezeigt. Sie können das Widget in den Einstellungen aktivieren und deaktivieren.</string>
+
+    <string name="settings_audio_source_default_desc">Standard-Audioquelle</string>
+    <string name="settings_audio_source_vc_desc">Mikrofon-Audioquelle stellt für Sprachkommunikation wie VoIP ein</string>
+    <string name="settings_audio_source_mic_desc">Mikrofon-Audioquelle</string>
+    <string name="settings_audio_source_vr_desc">Mikrofon-Audioquelle stellt für Spracherkennung ein</string>
+    <string name="settings_audio_source_v_call_desc">Sprachanruf-Uplink + Downlink-Audioquelle (Achtung! Kann nicht auf allen Geräten funktionieren).</string>
+
+    <string name="toast_error">Ein Fehler ist aufgetreten. Bitte versuchen Sie es noch einmal.</string>
+    <string name="toast_export">Datei wird heruntergeladen</string>
+    <string name="theme_green">Grün</string>
+    <string name="share_record_google_drive">Hochladen in Google Drive </string>
+    <string name="list_title_today">Heute</string>
+    <string name="list_title_yesterday">Gestern</string>
+
+    <string name="settings_post_call_time">Verzögerung der Aufzeichnung</string>
+    <string name="settings_post_call_time_desc">Stellen Sie die Zeit der Anrufaufzeichnung in Sekunden ein</string>
+    <string name="dialog_post_call_time_error">Die Verzögerungszeit sollte von 0 bis 20 Sekunden betragen</string>
+    <string name="sec">sec</string>
+
+    <string name="fab_text_delete_dictaphone">Löschen Sie Sprachaufnahmen</string>
+    <string name="custom_tab_call_text">Datensätze aufrufen</string>
+    <string name="custom_tab_voice_text">Sprachaufnahmen</string>
+    <string name="app_description">Das beste Aufnahmewerkzeug</string>
+    <string name="home">Zuhause</string>
+    <string name="rateus">Bewerten Sie uns</string>
+    <string name="aboutus">Über uns</string>
+    <string name="shareapp">App teilen</string>
+    <string name="privacypolicy">Datenschutz-Bestimmungen</string>
+    <string name="moreapps">Mehr Apps</string>
+    <string name="footer">Copyright © QRecorder 2018. Alle Rechte vorbehalten</string>
+</resources>

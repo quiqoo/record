@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_main_bg">
+
+    <ScrollView
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/settings_margin">
+
+
+            <LinearLayout
+                android:id="@+id/play_default_layout"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginRight="12dp"
+                    >
+                    <ImageView
+                        android:id="@+id/edit_record_play_default"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_width="@dimen/settings_divider_icon_size"
+                        android:layout_height="@dimen/settings_divider_icon_size"
+                        android:background="@drawable/edit_record_play_default"
+                        />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/play_contact_default"
+                        android:textColor="@color/color_edit_record_text"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="@dimen/settings_divider_icon_size"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12dp"/>
+                <include layout="@layout/demarcation_line" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/add_ignore_layout"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginRight="12dp"
+                    >
+                    <ImageView
+                        android:id="@+id/edit_record_filter"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_width="@dimen/settings_divider_icon_size"
+                        android:layout_height="@dimen/settings_divider_icon_size"
+                        android:background="@drawable/edit_record_filter"
+                        />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/share_add_filter"
+                        android:textColor="@color/color_edit_record_text"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="@dimen/settings_divider_icon_size"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12dp"/>
+                <include layout="@layout/demarcation_line" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/share_layout"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginRight="12dp"
+                    >
+                    <ImageView
+                        android:id="@+id/edit_record_share"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_width="@dimen/settings_divider_icon_size"
+                        android:layout_height="@dimen/settings_divider_icon_size"
+                        android:background="@drawable/edit_record_share"
+                        />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/share_record"
+                        android:textColor="@color/color_edit_record_text"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="@dimen/settings_divider_icon_size"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12dp"/>
+                <include layout="@layout/demarcation_line" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/share_google_drive_layout"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginRight="12dp"
+                    >
+                    <ImageView
+                        android:id="@+id/edit_record_share_google_drive"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_width="@dimen/settings_divider_icon_size"
+                        android:layout_height="@dimen/settings_divider_icon_size"
+                        android:background="@drawable/edit_record_share_google_drive"
+                        />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/share_record_google_drive"
+                        android:textColor="@color/color_edit_record_text"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="@dimen/settings_divider_icon_size"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12dp"/>
+                <include layout="@layout/demarcation_line" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/delete_contact_layout"
+                android:layout_marginTop="@dimen/settings_margin"
+                android:layout_marginBottom="@dimen/settings_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginRight="12dp"
+                    >
+                    <ImageView
+                        android:id="@+id/edit_record_delete"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_width="@dimen/settings_divider_icon_size"
+                        android:layout_height="@dimen/settings_divider_icon_size"
+                        android:background="@drawable/edit_record_delete"
+                        />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textSize="@dimen/settings_text_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/delete_contact"
+                        android:textColor="@color/color_edit_record_text" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="@dimen/settings_divider_icon_size"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12dp"/>
+                <include layout="@layout/demarcation_line" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/description_layout"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4.5"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="top"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:paddingTop="@dimen/activity_vertical_margin"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/input_layout_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center">
+
+                            <EditText
+                                android:visibility="gone"
+                                android:id="@+id/edit_text_name"
+                                android:singleLine="true"
+                                android:hint="@string/hint_text_enter_desc_label"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColorHint="@color/color_charging_end_text"
+                                android:textColor="@color/color_charging_end_value"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="8"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:paddingBottom="@dimen/activity_vertical_margin"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/input_layout_desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColorHint="@color/color_charging_end_value">
+                            <EditText
+                                android:id="@+id/edit_text_desc"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/hint_text_enter_desc"
+                                android:textColorHint="@color/color_charging_end_text"
+                                android:textColor="@color/color_charging_end_value"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:id="@+id/play_layout"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/play_layout_bg">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/layout_play"
+            android:layout_marginRight="12dp"
+            >
+            <ImageView
+                android:id="@+id/play_imageView"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_play"
+                />
+        </FrameLayout>
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

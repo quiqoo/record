@@ -1,0 +1,164 @@
+<resources>
+
+    <string name="main_screen_call_all_fragment">所有</string>
+    <string name="main_screen_call_incoming_fragment">来</string>
+    <string name="main_screen_call_outgoing_fragment">传出</string>
+
+    <string name="apply_text">好</string>
+    <string name="cancel_text">取消</string>
+
+    <string name="dialog_delete_call_confirm_error">播放时出现问题。 该文件可能已被删除。 要从数据库中删除此文件吗？</string>
+    <string name="dialog_delete_call_confirm">您确定要删除此文件吗？</string>
+    <string name="record_enable">记录启用</string>
+    <string name="record_disable">记录禁用</string>
+
+    <string name="no_record_call_title">无录音</string>
+    <string name="search_title">搜索</string>
+    <string name="action_delete_title">删除</string>
+    <string name="action_add_favorite_title">添加到收藏夹</string>
+    <string name="action_remove_favorite_title">从收藏夹中删除</string>
+    <string name="sort_by_date">按日期排序</string>
+    <string name="sort_by_name">按名称排序</string>
+
+    <string name="main_screen_call_favorite_fragment">喜爱</string>
+
+    <string name="hint_text_enter_desc_label">主题</string>
+    <string name="hint_text_enter_desc">输入一个注释</string>
+    <string name="call_recorded">通话记录</string>
+    <string name="change_save_folder_to">保存文件夹更改为</string>
+    <string name="share_record">分享此记录</string>
+    <string name="share_add_filter">不要与此联系人记录会话</string>
+    <string name="delete_contact">删除记录</string>
+    <string name="dialog_call_type_record_all">所有通话</string>
+    <string name="dialog_call_type_record_incoming">来电</string>
+    <string name="dialog_call_type_record_outgoing">呼出电话</string>
+    <string name="dialog_call_type_record_unknown">未知数字</string>
+    <string name="dialog_call_type_record_change">电话对话类型更改为：</string>
+
+    <string name="pin_title_set">输入PIN码</string>
+    <string name="pin_title_confirm">确认PIN码</string>
+    <string name="pin_empty_password">输入密码</string>
+    <string name="pin_password_not_confirm">密码未验证</string>
+    <string name="pin_password_confirm">已保存密码</string>
+
+    <string name="settings">设置</string>
+    <string name="settings_record_type">变化备案</string>
+    <string name="settings_ignore_list">忽略记录的联系人</string>
+    <string name="settings_pin">PIN保护</string>
+    <string name="settings_path">记录路径</string>
+    <string name="settings_sort">排序方法</string>
+    <string name="settings_share">分享</string>
+    <string name="settings_rate_us">给我们评分</string>
+    <string name="settings_pin_select_title">设置PIN码</string>
+    <string name="settings_pin_select_desc">设置PIN以保护您记录的对话</string>
+
+    <string name="dialog_call_sort_change">呼叫排序类型更改为：</string>
+
+    <string name="share_text">为了录制电话对话，我使用呼叫记录器，我认为你可能会喜欢它。 在您的手机上安装通话记录器：</string>
+
+    <string name="ignore_list_title">忽略的联系人</string>
+    <string name="ignore_list_delete_confirm">从列表中删除被忽略的联系人的写作？</string>
+    <string name="ignore_contact_add">联系人被添加到列表中</string>
+    <string name="ignore_contact_add_error">添加联系人时发生错误</string>
+    <string name="ignore_contact_exists">I在列表中已经存在这样的数字</string>
+
+    <string name="play_contact_default">玩你的播放器</string>
+    <string name="dialog_save_desc_confirm">退出之前保存更改？</string>
+    <string name="no_text">没有</string>
+    <string name="yes_text">是</string>
+
+    <string name="delete_text">删除</string>
+    <string name="delete_header">删除记录</string>
+    <string name="dialog_delete_all_check">您确定要删除所选记录吗？</string>
+    <string name="fab_text_delete_all">删除所选记录</string>
+    <string name="fab_text_delete_contacts">删除联系人记录</string>
+
+    <string name="settings_action_after_call">在通话后选择一个动作</string>
+    <string name="dialog_action_after_call_notification">显示通知</string>
+    <string name="dialog_action_after_call_open">打开记录编辑窗口</string>
+    <string name="dialog_action_after_call_change">通话后的动作类型更改为：</string>
+
+    <string name="dialog_attention_label">注意</string>
+    <string name="dialog_attention">某些设备上的应用程序可能无法正常工作。 为了提高录音质量，我们建议您在通话过程中添加声音。</string>
+
+    <string name="settings_max_call_volume">将通话期间的音量设置为最大音量</string>
+
+    <string name="settings_lang">语言</string>
+    <string name="dialog_lang_default">默认</string>
+    <string name="dialog_lang_en">English</string>
+    <string name="dialog_lang_ru">Русский</string>
+    <string name="dialog_lang_de">Deutsch</string>
+    <string name="dialog_lang_es">Español</string>
+    <string name="dialog_lang_fr">Français</string>
+    <string name="dialog_lang_ja">日本語</string>
+    <string name="dialog_lang_ko">한국어</string>
+    <string name="dialog_lang_pt">Portugues</string>
+    <string name="dialog_lang_zh">中文（简体）</string>
+    <string name="dialog_lang_zh_rtw">中文（繁體）</string>
+
+    <string name="dictaphone_label">录音机</string>
+    <string name="dialog_delete_dictaphone">你真的要删除记录吗？</string>
+    <string name="dictaphone_edit_text_hint">记录名称</string>
+    <string name="dialog_action_after_call_nothing">没做什么</string>
+
+    <string name="dictaphone_toast_start_record">录音开始了</string>
+    <string name="dictaphone_toast_stop_record">录音停止</string>
+    <string name="dictaphone_toast_stop_error">录制时发生错误</string>
+    <string name="settings_file_extension">选择文件扩展名</string>
+    <string name="dialog_file_ext_amr">AMR</string>
+    <string name="dialog_file_ext_three_gp">3GP</string>
+    <string name="dialog_file_ext_mp_four">MP4</string>
+    <string name="settings_audio_source_label">手动选择音频源</string>
+    <string name="settings_audio_source">选择音频源</string>
+    <string name="settings_audio_source_desc">尝试手动选择音频源。注意！该程序的不稳定功能是可能的。会话可能无法记录。</string>
+    <string name="dialog_audio_source_vc">Voice Communication</string>
+    <string name="dialog_audio_source_mic">Mic</string>
+    <string name="dialog_audio_source_vr">Voice Recognition</string>
+    <string name="dialog_audio_source_v_call">Voice Call</string>
+    <string name="dialog_audio_source_default">Default</string>
+    <string name="audio_source_error">录制时发生错误。记录不保存</string>
+    <string name="notification_enable_text">启用自动录像</string>
+    <string name="notification_disable_text">自动录像禁用</string>
+    <string name="settings_widget">激活用于录制的小部件</string>
+    <string name="dialog_widget_body">我们在呼叫屏幕上添加了一个新功能。现在，您可以随时开始录制对话，即使您禁用了自动通话录音。呼叫期间，小部件将自动显示。你可以把它拖到任何适合你的地方。要开始/停止录制，点击小部件的上部。您可以在设置菜单中删除小部件。</string>
+
+    <string name="record_time">录音时间</string>
+    <string name="settings_other">附加设置</string>
+
+    <string name="skins">主题</string>
+    <string name="theme_red">红</string>
+    <string name="theme_blue">蓝色</string>
+
+    <string name="dialog_system_alert_window">要让录音小部件在呼叫屏幕上工作，有必要给予特殊许可。 如果您拒绝，该小部件将不会出现在通话屏幕上。 您可以在设置中打开并关闭窗口小部件。</string>
+
+    <string name="settings_audio_source_default_desc">默认音频源</string>
+    <string name="settings_audio_source_vc_desc">麦克风音频源适用于VoIP等语音通信</string>
+    <string name="settings_audio_source_mic_desc">麦克风音频源</string>
+    <string name="settings_audio_source_vr_desc">麦克风音频源调谐为语音识别</string>
+    <string name="settings_audio_source_v_call_desc">语音呼叫上行+下行音频源（注意！可能无法在所有设备上工作）。</string>
+
+    <string name="toast_error">发生错误，请再试一次。</string>
+    <string name="toast_export">文件被下载</string>
+    <string name="theme_green">绿色</string>
+    <string name="share_record_google_drive">上传到Google云端硬盘</string>
+    <string name="list_title_today">今天</string>
+    <string name="list_title_yesterday">昨天</string>
+
+    <string name="settings_post_call_time">延迟记录</string>
+    <string name="settings_post_call_time_desc">设置通话记录延迟的时间，以秒为单位</string>
+    <string name="dialog_post_call_time_error">延迟时间应该是从0到20秒</string>
+    <string name="sec">sec</string>
+
+    <string name="fab_text_delete_dictaphone">删除语音记录</string>
+    <string name="custom_tab_call_text">通话记录</string>
+    <string name="custom_tab_voice_text">语音记录</string>
+    <string name="rateus">评价我们</string>
+    <string name="aboutus">关于我们</string>
+    <string name="shareapp">分享应用程序</string>
+    <string name="privacypolicy">隐私政策</string>
+    <string name="moreapps">更多应用程序</string>
+    <string name="footer">版权所有©QRecorder 2018.保留所有权利</string>
+    <string name="app_description">最好的录音工具</string>
+    <string name="home">家</string>
+
+</resources>

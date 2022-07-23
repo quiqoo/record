@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_main_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="72dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_record_window_text"
+                android:textSize="@dimen/dictaphone_record_timer_text_label_size"
+                android:text="@string/record_time"
+                android:layout_margin="8dp"/>
+
+            <TextView
+                android:id="@+id/timer_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_record_window_text"
+                android:textSize="@dimen/dictaphone_record_timer_text_size"
+                android:text="0:00:00"
+                android:layout_margin="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/fab_delete"
+            android:layout_width="@dimen/circle_icon_size_mid"
+            android:layout_height="@dimen/circle_icon_size_mid"
+            android:background="@drawable/shadow_dc_mid"
+            android:layout_marginBottom="16dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/icon_delete"
+                android:layout_width="@dimen/icon_circle_icon_size_mid"
+                android:layout_height="@dimen/icon_circle_icon_size_mid"
+                android:src="@drawable/fab_icon_delete"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fab_menu"
+            android:layout_width="@dimen/circle_icon_size_max"
+            android:layout_height="@dimen/circle_icon_size_max"
+            android:background="@drawable/shadow_dc_max"
+            android:layout_marginBottom="40dp"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/icon_menu"
+                android:layout_width="@dimen/icon_circle_icon_size_max"
+                android:layout_height="@dimen/icon_circle_icon_size_max"
+                android:src="@drawable/fab_play_ic"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

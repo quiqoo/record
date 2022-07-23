@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.martarodriguezm:rate-me:1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0863d8857d6c626b169aeacd809dbe8/jetified-rate-me-1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0863d8857d6c626b169aeacd809dbe8/jetified-rate-me-1.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.martarodriguezm/rate-me/1.2/cbc8a42ae075a762883e182116c65b010eedd32d/rate-me-1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.martarodriguezm/rate-me/1.2/bd9392ee5275fbb56aa692b0ab3d7eb5401baba2/rate-me-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

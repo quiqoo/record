@@ -1,0 +1,164 @@
+<resources>
+
+    <string name="main_screen_call_all_fragment">すべて</string>
+    <string name="main_screen_call_incoming_fragment">着信</string>
+    <string name="main_screen_call_outgoing_fragment">送信</string>
+
+    <string name="apply_text">はい</string>
+    <string name="cancel_text">キャンセル</string>
+
+    <string name="dialog_delete_call_confirm_error">再生に問題がありました。 ファイルが削除されている可能性があります。 このファイルをデータベースから削除しますか？</string>
+    <string name="dialog_delete_call_confirm">このファイルを削除してもよろしいですか？</string>
+    <string name="record_enable">レコードを有効にする</string>
+    <string name="record_disable">レコードの無効化</string>
+
+    <string name="no_record_call_title">録音された通話なし</string>
+    <string name="search_title">サーチ</string>
+    <string name="action_delete_title">削除</string>
+    <string name="action_add_favorite_title">お気に入りに追加</string>
+    <string name="action_remove_favorite_title">お気に入りから削除</string>
+    <string name="sort_by_date">日付順に並べ替える</string>
+    <string name="sort_by_name">名前で並べ替える</string>
+
+    <string name="main_screen_call_favorite_fragment">お気に入り</string>
+
+    <string name="hint_text_enter_desc_label">テーマ</string>
+    <string name="hint_text_enter_desc">メモを入力</string>
+    <string name="call_recorded">通話が録音される</string>
+    <string name="change_save_folder_to">フォルダを保存先に変更</string>
+    <string name="share_record">このレコードを共有する</string>
+    <string name="share_add_filter">この連絡先との会話を記録しない</string>
+    <string name="delete_contact">レコードを削除する</string>
+    <string name="dialog_call_type_record_all">すべての通話</string>
+    <string name="dialog_call_type_record_incoming">着信コール</string>
+    <string name="dialog_call_type_record_outgoing">発信コール</string>
+    <string name="dialog_call_type_record_unknown">未知数</string>
+    <string name="dialog_call_type_record_change">電話会話のタイプが次のように変更されました：</string>
+
+    <string name="pin_title_set">PINを入力</string>
+    <string name="pin_title_confirm">PINの確認</string>
+    <string name="pin_empty_password">パスワードを入力する</string>
+    <string name="pin_password_not_confirm">パスワードが確認されません</string>
+    <string name="pin_password_confirm">パスワードを保存しました</string>
+
+    <string name="settings">設定</string>
+    <string name="settings_record_type">レコードのバリエーション</string>
+    <string name="settings_ignore_list">記録のために無視された連絡先</string>
+    <string name="settings_pin">PIN保護</string>
+    <string name="settings_path">レコードへのパス</string>
+    <string name="settings_sort">ソート方法</string>
+    <string name="settings_share">シェア</string>
+    <string name="settings_rate_us">私たちを評価してください</string>
+    <string name="settings_pin_select_title">PINを設定する</string>
+    <string name="settings_pin_select_desc">録音した会話を保護するためのPINの設定</string>
+
+    <string name="dialog_call_sort_change">コールソートタイプが変更されました：</string>
+
+    <string name="share_text">私はコールレコーダーを使用して電話の会話を録音するために、私はあなたがそれを好きかもしれないと思います。 あなたの電話にコールレコーダーをインストールする：</string>
+
+    <string name="ignore_list_title">無視された連絡先</string>
+    <string name="ignore_list_delete_confirm">書き込みのために無視される連絡先をリストから削除しますか？</string>
+    <string name="ignore_contact_add">連絡先がリストに追加されます</string>
+    <string name="ignore_contact_add_error">連絡先の追加中にエラーが発生しました</string>
+    <string name="ignore_contact_exists">そのような番号が既に存在するリスト</string>
+
+    <string name="play_contact_default">あなたのプレーヤーでプレイ</string>
+    <string name="dialog_save_desc_confirm">終了する前に変更を保存しますか？</string>
+    <string name="no_text">いいえ</string>
+    <string name="yes_text">はい</string>
+
+    <string name="delete_text">削除</string>
+    <string name="delete_header">レコードの削除</string>
+    <string name="dialog_delete_all_check">Are you sure you want to delete the selected records?</string>
+    <string name="fab_text_delete_all">選択したレコードを削除してもよろしいですか？</string>
+    <string name="fab_text_delete_contacts">連絡先レコードを削除する</string>
+
+    <string name="settings_action_after_call">通話後にアクションを選択する</string>
+    <string name="dialog_action_after_call_notification">通知を表示する</string>
+    <string name="dialog_action_after_call_open">レコード編集ウィンドウを開く</string>
+    <string name="dialog_action_after_call_change">呼び出し後のアクションのタイプが次のように変更されます。</string>
+
+    <string name="dialog_attention_label">注意</string>
+    <string name="dialog_attention">一部のデバイスでアプリケーションが正しく動作しないことがあります。 録音の質を向上させるために、会話中に音を追加することをお勧めします。</string>
+
+    <string name="settings_max_call_volume">最大通話中に音量を設定する</string>
+
+    <string name="settings_lang">言語</string>
+    <string name="dialog_lang_default">デフォルト</string>
+    <string name="dialog_lang_en">English</string>
+    <string name="dialog_lang_ru">Русский</string>
+    <string name="dialog_lang_de">Deutsch</string>
+    <string name="dialog_lang_es">Español</string>
+    <string name="dialog_lang_fr">Français</string>
+    <string name="dialog_lang_ja">日本語</string>
+    <string name="dialog_lang_ko">한국어</string>
+    <string name="dialog_lang_pt">Portugues</string>
+    <string name="dialog_lang_zh">中文（简体）</string>
+    <string name="dialog_lang_zh_rtw">中文（繁體）</string>
+
+    <string name="dictaphone_label">ディクタフォン</string>
+    <string name="dialog_delete_dictaphone">本当にレコードを削除しますか？</string>
+    <string name="dictaphone_edit_text_hint">レコード名</string>
+    <string name="dialog_action_after_call_nothing">何もしない</string>
+
+    <string name="dictaphone_toast_start_record">録音開始</string>
+    <string name="dictaphone_toast_stop_record">記録停止</string>
+    <string name="dictaphone_toast_stop_error">録音中にエラーが発生しました</string>
+    <string name="settings_file_extension">ファイル拡張子を選択</string>
+    <string name="dialog_file_ext_amr">AMR</string>
+    <string name="dialog_file_ext_three_gp">3GP</string>
+    <string name="dialog_file_ext_mp_four">MP4</string>
+    <string name="settings_audio_source_label">オーディオソースを手動で選択する</string>
+    <string name="settings_audio_source">オーディオソースを選択</string>
+    <string name="settings_audio_source_desc">オーディオソースを手動で選択してみてください。注意！プログラムの不安定な機能が可能です。会話は記録されないかもしれません。</string>
+    <string name="dialog_audio_source_vc">Voice Communication</string>
+    <string name="dialog_audio_source_mic">Mic</string>
+    <string name="dialog_audio_source_vr">Voice Recognition</string>
+    <string name="dialog_audio_source_v_call">Voice Call</string>
+    <string name="dialog_audio_source_default">Default</string>
+    <string name="audio_source_error">録音中にエラーが発生しました。レコードは保存されません</string>
+    <string name="notification_enable_text">自動録音を有効にする</string>
+    <string name="notification_disable_text">自動録音を無効にする</string>
+    <string name="settings_widget">録音用のウィジェットをアクティブにする</string>
+    <string name="dialog_widget_body">コールスクリーンに新しい機能を追加しました。自動着信録音を無効にしても、いつでも会話録音を開始できます。ウィジェットは通話中に自動的に表示されます。あなたはあなたのために適切な場所にそれをドラッグすることができます。録画を開始/停止するには、ウィジェットの上部をタップします。設定メニューでウィジェットを削除できます。</string>
+
+    <string name="record_time">録音時間</string>
+    <string name="settings_other">その他の設定</string>
+
+    <string name="skins">テーマ</string>
+    <string name="theme_red">赤</string>
+    <string name="theme_blue">青</string>
+
+    <string name="dialog_system_alert_window">録音ウィジェットをコール画面で操作させるには、特別な許可を与える必要があります。 拒否すると、ウィジェットはコール画面に表示されません。 設定でウィジェットをオンまたはオフにすることができます。</string>
+
+    <string name="settings_audio_source_default_desc">デフォルトのオーディオソース</string>
+    <string name="settings_audio_source_vc_desc">VoIPなどの音声通信用に調整されたマイクロフォンオーディオソース</string>
+    <string name="settings_audio_source_mic_desc">マイクオーディオソース</string>
+    <string name="settings_audio_source_vr_desc">音声認識のためにチューニングされたマイクオーディオソース</string>
+    <string name="settings_audio_source_v_call_desc">音声コールアップリンク+ダウンリンクオーディオソース（注意！すべてのデバイスで機能しない可能性があります）。</string>
+
+    <string name="toast_error">エラーが発生しました。もう一度お試しください。</string>
+    <string name="toast_export">ファイルがダウンロードされています</string>
+    <string name="theme_green">緑</string>
+    <string name="share_record_google_drive">グーグルドライブ にアップロードする</string>
+    <string name="list_title_today">今日</string>
+    <string name="list_title_yesterday">昨日</string>
+
+    <string name="settings_post_call_time">記録の遅れ</string>
+    <string name="settings_post_call_time_desc">通話記録の遅延時間を秒単位で設定する</string>
+    <string name="dialog_post_call_time_error">遅延時間は0〜20秒です</string>
+    <string name="sec">sec</string>
+
+    <string name="fab_text_delete_dictaphone">音声レコードを削除する</string>
+    <string name="custom_tab_call_text">通話記録</string>
+    <string name="custom_tab_voice_text">音声記録</string>
+    <string name="rateus">私たちを評価してください</string>
+    <string name="aboutus">私たちに関しては</string>
+    <string name="shareapp">共有アプリ</string>
+    <string name="privacypolicy">個人情報保護方針</string>
+    <string name="moreapps">より多くのアプリケーション</string>
+    <string name="footer">Copyright©QRecorder 2018. All Right Reserved</string>
+    <string name="app_description">最高のレコーディングツール</string>
+    <string name="home">ホーム</string>
+
+</resources>

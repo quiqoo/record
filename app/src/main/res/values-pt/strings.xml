@@ -1,0 +1,165 @@
+<resources>
+
+    <string name="main_screen_call_all_fragment">Todos</string>
+    <string name="main_screen_call_incoming_fragment">Entrada</string>
+    <string name="main_screen_call_outgoing_fragment">Extrovertido</string>
+
+    <string name="apply_text">Ok</string>
+    <string name="cancel_text">Cancelar</string>
+
+    <string name="dialog_delete_call_confirm_error">Ocorreu um problema com a reprodução. O arquivo pode ter sido excluído. Deseja excluir este arquivo do banco de dados?</string>
+    <string name="dialog_delete_call_confirm">Tem certeza de que deseja excluir este arquivo?</string>
+    <string name="record_enable">Registro habilitar</string>
+    <string name="record_disable">Registro desativar</string>
+
+    <string name="no_record_call_title">Sem chamadas gravadas</string>
+    <string name="search_title">Pesquisa</string>
+    <string name="action_delete_title">Excluir</string>
+    <string name="action_add_favorite_title">Adicionar aos favoritos</string>
+    <string name="action_remove_favorite_title">Remover dos favoritos</string>
+    <string name="sort_by_date">Classificar por data</string>
+    <string name="sort_by_name">Classificar por Nome</string>
+
+    <string name="main_screen_call_favorite_fragment">Favorito</string>
+
+    <string name="hint_text_enter_desc_label">Tema</string>
+    <string name="hint_text_enter_desc">Insira uma nota</string>
+    <string name="call_recorded">Chamada é gravada</string>
+    <string name="change_save_folder_to">Salvar pasta alterada para</string>
+    <string name="share_record">Compartilhe este registro</string>
+    <string name="share_add_filter">Não registre conversas com este contato</string>
+    <string name="delete_contact">Excluir registro</string>
+    <string name="dialog_call_type_record_all">Todas as chamadas</string>
+    <string name="dialog_call_type_record_incoming">Chamadas recebidas</string>
+    <string name="dialog_call_type_record_outgoing">Chamadas externas</string>
+    <string name="dialog_call_type_record_unknown">Números desconhecidos</string>
+    <string name="dialog_call_type_record_change">O tipo de conversa telefônica mudou para:</string>
+
+    <string name="pin_title_set">Entrar no pino</string>
+    <string name="pin_title_confirm">Confirmar PIN</string>
+    <string name="pin_empty_password">Digite a senha</string>
+    <string name="pin_password_not_confirm">Senha não verificada</string>
+    <string name="pin_password_confirm">Senha salva</string>
+
+    <string name="settings">Configurações</string>
+    <string name="settings_record_type">Variante de registro</string>
+    <string name="settings_ignore_list">Contatos ignorados para gravação</string>
+    <string name="settings_pin">Proteção de PIN</string>
+    <string name="settings_path">Caminho para registros</string>
+    <string name="settings_sort">Método de classificação</string>
+    <string name="settings_share">Compartilhar</string>
+    <string name="settings_rate_us">Nos avalie</string>
+    <string name="settings_pin_select_title">Definir PIN</string>
+    <string name="settings_pin_select_desc">Defina um PIN para proteger suas conversas gravadas</string>
+
+    <string name="dialog_call_sort_change">O tipo de classificação de chamadas foi alterado para:</string>
+
+    <string name="share_text">Para gravar conversas telefônicas, eu uso Call Recorder, acho que você pode gostar. Instale Call Recorder no seu telefone:</string>
+
+    <string name="ignore_list_title">Contatos ignorados</string>
+    <string name="ignore_list_delete_confirm">Elimine um contato da lista que é ignorada para escrever?</string>
+    <string name="ignore_contact_add">O contato é adicionado à lista</string>
+    <string name="ignore_contact_add_error">Ocorreu um erro ao adicionar o contato</string>
+    <string name="ignore_contact_exists">Na lista já existe esse número</string>
+
+    <string name="play_contact_default">Jogue no seu jogador</string>
+    <string name="dialog_save_desc_confirm">Salvar as alterações antes de sair?</string>
+    <string name="no_text">Não</string>
+    <string name="yes_text">Sim</string>
+
+    <string name="delete_text">Deletar</string>
+    <string name="delete_header">Apagar registros</string>
+    <string name="dialog_delete_all_check">Tem certeza de que deseja excluir os registros selecionados?</string>
+    <string name="fab_text_delete_all">Excluir registros selecionados</string>
+    <string name="fab_text_delete_contacts">Excluir registros de contatos</string>
+
+    <string name="settings_action_after_call">Selecione uma ação após uma chamada</string>
+    <string name="dialog_action_after_call_notification">Mostrar notificação</string>
+    <string name="dialog_action_after_call_open">Abra a janela de edição de registro</string>
+    <string name="dialog_action_after_call_change">O tipo de ação após a chamada é alterada para:</string>
+
+    <string name="dialog_attention_label">Atenção</string>
+    <string name="dialog_attention">O aplicativo pode não funcionar corretamente em alguns dispositivos. Para melhorar a qualidade da gravação, recomendamos que você adicione som durante a conversa.</string>
+
+    <string name="settings_max_call_volume">Defina o volume durante uma chamada para o máximo</string>
+
+    <string name="settings_lang">Língua</string>
+    <string name="dialog_lang_default">Padrão</string>
+    <string name="dialog_lang_en">English</string>
+    <string name="dialog_lang_ru">Русский</string>
+    <string name="dialog_lang_de">Deutsch</string>
+    <string name="dialog_lang_es">Español</string>
+    <string name="dialog_lang_fr">Français</string>
+    <string name="dialog_lang_ja">日本語</string>
+    <string name="dialog_lang_ko">한국어</string>
+    <string name="dialog_lang_pt">Portugues</string>
+    <string name="dialog_lang_zh">中文（简体）</string>
+    <string name="dialog_lang_zh_rtw">中文（繁體）</string>
+
+    <string name="dictaphone_label">Ditafone</string>
+    <string name="dialog_delete_dictaphone">Você realmente deseja excluir o registro?</string>
+    <string name="dictaphone_edit_text_hint">Nome do registro</string>
+    <string name="dialog_action_after_call_nothing">Fazer nada</string>
+
+    <string name="dictaphone_toast_start_record">A gravação começou</string>
+    <string name="dictaphone_toast_stop_record">A gravação parou</string>
+    <string name="dictaphone_toast_stop_error">Ocorreu um erro durante a gravação</string>
+    <string name="settings_file_extension">Escolher a extensão do arquivo</string>
+    <string name="dialog_file_ext_amr">AMR</string>
+    <string name="dialog_file_ext_three_gp">3GP</string>
+    <string name="dialog_file_ext_mp_four">MP4</string>
+    <string name="settings_audio_source_label">Escolher a fonte de áudio manualmente</string>
+    <string name="settings_audio_source">Escolher fonte de áudio</string>
+    <string name="settings_audio_source_desc">Tente escolher a fonte de áudio manualmente. Atenção! O funcionamento instável do programa é possível. A conversa pode não ser gravada.</string>
+    <string name="dialog_audio_source_vc">Voice Communication</string>
+    <string name="dialog_audio_source_mic">Mic</string>
+    <string name="dialog_audio_source_vr">Voice Recognition</string>
+    <string name="dialog_audio_source_v_call">Voice Call</string>
+    <string name="dialog_audio_source_default">Default</string>
+    <string name="audio_source_error">Ocorreu um erro durante a gravação. O registro não foi salvo.</string>
+    <string name="notification_enable_text">Gravação automática ativada</string>
+    <string name="notification_disable_text">Gravação automática desativada</string>
+    <string name="settings_widget">Ativar widget para gravação</string>
+    <string name="dialog_widget_body">Adicionamos uma nova função na tela de chamadas. Agora você pode começar a gravar uma conversa a qualquer momento, mesmo se você desativou a gravação automática de chamadas. O widget aparecerá automaticamente durante a chamada. Você pode arrastá-lo para qualquer lugar apropriado para você. Para iniciar / parar a gravação toque na parte superior do widget. Você pode remover o widget no menu de configurações.</string>
+
+
+    <string name="record_time">Tempo de gravação</string>
+    <string name="settings_other">Configurações adicionais</string>
+
+    <string name="skins">Temas</string>
+    <string name="theme_red">Vermelho</string>
+    <string name="theme_blue">Azul</string>
+
+    <string name="dialog_system_alert_window">Para permitir que o widget de gravação funcione na tela de chamada é necessário dar uma permissão especial. Se você recusar, o widget não aparecerá na tela da chamada. Você pode ligar e desligar o widget nas configurações.</string>
+
+    <string name="settings_audio_source_default_desc">Fonte de áudio padrão</string>
+    <string name="settings_audio_source_vc_desc">Fonte de áudio de microfone sintonizada para comunicações de voz, como VoIP</string>
+    <string name="settings_audio_source_mic_desc">Fonte de áudio do microfone</string>
+    <string name="settings_audio_source_vr_desc">Fonte de áudio de microfone sintonizada para reconhecimento de voz</string>
+    <string name="settings_audio_source_v_call_desc">Fonte de áudio de chamada de voz uplink + downlink (Atenção! Não pode funcionar em todos os dispositivos).</string>
+
+    <string name="toast_error">Ocorreu um erro. Por favor, tente novamente.</string>
+    <string name="toast_export">O arquivo é baixado</string>
+    <string name="theme_green">Verde</string>
+    <string name="share_record_google_drive">Carregar para o Google Drive</string>
+    <string name="list_title_today">Hoje</string>
+    <string name="list_title_yesterday">Ontem</string>
+
+    <string name="settings_post_call_time">Atraso do registro</string>
+    <string name="settings_post_call_time_desc">Defina a hora do atraso do registro de chamadas em segundos</string>
+    <string name="dialog_post_call_time_error">O tempo de atraso deve ser de 0 a 20 segundos</string>
+    <string name="sec">sec</string>
+
+    <string name="fab_text_delete_dictaphone">Excluir registros de voz</string>
+    <string name="custom_tab_call_text">Registos de chamadas</string>
+    <string name="custom_tab_voice_text">Registros de voz</string>
+    <string name="rateus">Nos avalie</string>
+    <string name="aboutus">Sobre nós</string>
+    <string name="shareapp">Compartilhe o aplicativo</string>
+    <string name="privacypolicy">Política de Privacidade</string>
+    <string name="moreapps">Mais aplicativos</string>
+    <string name="footer">Copyright © QRecorder 2018. Todos os direitos reservados</string>
+    <string name="app_description">A melhor ferramenta de gravação</string>
+    <string name="home">Casa</string>
+
+</resources>

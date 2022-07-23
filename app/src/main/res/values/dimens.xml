@@ -1,0 +1,41 @@
+<resources>
+    <dimen name="call_list_margin">10dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="list_item_call_name_size">18sp</dimen>
+    <dimen name="list_item_call_time_size">13sp</dimen>
+
+    <dimen name="list_item_call_photo_size">48dp</dimen>
+
+    <dimen name="main_button_text_size">16sp</dimen>
+
+    <dimen name="settings_text_size">16sp</dimen>
+    <dimen name="settings_desc_text_size">14sp</dimen>
+
+    <dimen name="settings_margin">16dp</dimen>
+    <dimen name="settings_margin_triple">24dp</dimen>
+
+    <dimen name="dictaphone_record_timer_text_label_size">28dp</dimen>
+    <dimen name="dictaphone_record_timer_text_size">40dp</dimen>
+
+
+    <dimen name="settings_divider_icon_size">24dp</dimen>
+    <dimen name="pin_btn_size">64dp</dimen>
+    <dimen name="pin_btn_margin_top">4dp</dimen>
+    <dimen name="pin_btn_margin_right">12dp</dimen>
+
+
+    <dimen name="custom_tab_layout_size_half">70dp</dimen>
+
+    <dimen name="circle_icon_size_max">60dp</dimen>
+    <dimen name="circle_icon_size_mid">40dp</dimen>
+    <dimen name="shadow_circle_icon_size_max">30dp</dimen>
+    <dimen name="shadow_circle_icon_size_mid">20dp</dimen>
+    <dimen name="icon_circle_icon_size_max">30dp</dimen>
+    <dimen name="icon_circle_icon_size_mid">20dp</dimen>
+
+
+    <dimen name="dots_height">30dp</dimen>
+
+
+</resources>
